@@ -1,0 +1,389 @@
+*{    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    box-sizing:border-box
+}
+a{
+    text-decoration: none;
+}
+.mobil-header,.uyeol-girisyap{
+    display: none;
+}
+.uyeol-mobil{
+    padding-right: 8px;
+    border-right: 2px black solid;
+}
+.topWeb{
+    margin-top: 1em;
+    display: flex;
+    align-items: center;    
+    justify-content: space-between;
+}
+.topWeb .logo{
+    min-width: 200px;
+    padding-right:1rem;    
+}
+.topLogos{
+    min-width: 14rem;
+    padding-left: 0.1rem;
+    display: flex;
+}
+.topLogos .icon{    
+    padding-left: 0 2px;
+    text-align: center;
+}
+
+.topLogos .text{
+    font-size: 12px;
+}
+.topLogos a{    
+    padding: 0 1vh;
+    text-decoration: none;
+}
+.userLogo {
+    padding: auto;
+}
+.topDiv{
+    height: 25px;
+    background-color:rgba(240,240,240,1);
+}
+.innerTop{
+    position: relative;
+    height: 25px;
+    width: 75%;
+    margin: auto;
+}
+.Tablet,.menu-icon,.MobilBanner{
+    display: none;
+}
+.menu-icon{
+    margin: 0.35rem;
+    font-size: 1.25rem;
+}
+.uye-ol{
+    padding-right: 1em;
+    margin-right: 1em;
+    display: inline;
+    width: 1em;
+    border-right: 2px black solid;
+}
+#siparis{
+    font-size: 12px;
+    margin-top: 7px;
+    float: right;
+    text-decoration: none;
+    color: mediumblue;
+}
+.search-box{
+    border: 1px solid black;
+    position: relative;
+    height: 25px;
+    width: 700px;
+    min-width: 230px;
+}
+.search-btn{
+    line-height: 25px;
+    text-align: center;
+    background-color: white;
+    border-left: 1px solid black;    
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 10%;
+    cursor: pointer;
+    position: absolute;
+    min-width: 30px;    
+    transition: 0.6s ease;
+}
+
+.search-btn:hover{
+    background-color: #eee;
+}
+
+.search-txt{
+    padding-left: 3px;
+    border: none;
+    top: 0;
+    left: 0;
+    width: 90%;
+    min-width: 200px;
+    height: 100%;
+    position: absolute;
+}
+.uo-list {
+    font-size: 0.7rem;
+    font-weight: bold;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+  }
+  li {
+    color: #fff;
+    display: block;
+    float: left;
+    padding: 3vh;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5;
+  }
+    
+  li a {
+    color: #000;
+  }
+  .uo-list li{
+      padding-right: 2vh;
+  }
+ 
+    .uo-list li ul {            
+    width: 75vw;  
+    visibility: hidden;
+    position: absolute;
+    opacity: 0;
+    margin-top: 1rem;
+    padding: 0 20px;
+    left: 0;
+    display: none;
+    transition: all 2s; 
+  }
+
+  .uo-list li:hover > ul,
+  .uo-list li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    flex-wrap: wrap;
+  }
+
+.dropdown
+{        
+    border: 1px black solid;
+    background-color: whitesmoke;
+    align-items: center;
+    width: 100%;
+    height: 30em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+.dropdown-elements{
+    
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.menu1{
+    height: 50px;
+}
+.container1{
+    width: 75vw;
+    margin: auto;
+}
+.topWeb{
+    height: 50px;
+}
+.yaziliBanner{
+    width: 100%;
+    height: 100%;
+}
+img{
+    width: 100%;    
+}
+.menu-half{
+    display: flex;
+}
+.uo-list-mobil{
+    display: flex;
+    flex-direction: column;
+}
+.uyeol-girisyap,.siparistakip-mobil{
+    width: 49%;
+    background-color: whitesmoke;
+    align-items: center;
+    text-align: center;
+    height: 10vh;
+    line-height: 10vh;
+    margin: auto;
+}
+.banners{
+    justify-content: space-between;
+    height: auto;
+    display: flex;
+}
+.banner{
+    width: 49%;
+}
+.maincontent{
+    margin-bottom: 1rem;
+}
+
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  background-color: rgba(90,90,90,0.8);
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.menu-mobil{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;    
+    overflow: auto;
+    background-color: white;
+    z-index: 2;
+    display: none;
+}
+#red{
+    color: red;
+}
+#toggle{
+    display: none;
+}
+#toggle2{
+    display: none;
+}
+.imglcw, .back-icon, .search-icon{
+    margin-top: 1vh;
+}
+.search-box-mobil{
+    display: none;
+}
+.logo-search{
+    text-align: center;
+    line-height: 5vh;
+    justify-content: space-between;
+    margin: 0 5vh;
+    display: flex;
+    flex-direction: row;
+
+}
+#label-tog{
+    cursor: pointer;
+    font-size: 1.8rem;    
+    font-weight: bold;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@media all and (max-width:1024px){
+
+
+    .Tablet,.menu-icon,.uyeol-girisyap{
+        display: block;
+    }
+    .giris-yap,.Web,.favList,.bagList,.menu1{
+        display: none;
+    }
+    .icon{
+        padding: 0 1em;
+    }
+    .topLogos{
+        min-width: 11em;
+    }
+    .topLogos a{
+        padding:0 0.2vh ;
+    }
+    .banners{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner{
+        width: 100%;
+    }
+    #toggle:checked +.menu-mobil{
+        display: block;
+    }
+}
+@media all and (max-width:768px){
+    .container1{
+        width: 95vw;
+    }
+    .WebBanner, .topWeb{
+        display: none;
+    }
+    .MobilBanner, .mobil-header,.uyeol-girisyap{
+        display: block;        
+    }
+    .top-mobil{
+        display: flex;
+        justify-content: space-between;
+        
+        margin: auto;
+    }
+    .mobil-header .topLogos .icon{
+        margin-top: 20px;
+    }
+
+    .mobil-header .search-box{
+        margin-bottom: 10px;
+        border: 1px solid black;
+        height: 25px;
+        width: 95vw;
+    }
+    #toggle2:checked +.menu-mobil{
+        display: block;
+    }
+
+    /*imglcw none
+    search-box-mobil block */
+}
